@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoDolistExaul.Pages.NewMainPage"
+             Title="To do List">
+    <VerticalStackLayout>
+        <!--LABEL BIENVENIDA--> 
+        <Label
+            Padding="0,20,0,0"
+            Text="Bienvenido"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <!--BOTON AGREGAR --><!--
+        <Button Margin="40"
+                FontSize="20"
+                BackgroundColor="Black"
+                Text="Agregar"/>-->
+        <!--LISTA -->
+        <ListView/>
+        <!--IMAGEN DE LA LISTA  -->
+        <Image
+        Source="https://i.ibb.co/jkqg8dH/subir.jpg"
+        SemanticProperties.Description="Cute dot net bot waving hi to you!"
+        HorizontalOptions="CenterAndExpand" />
+        <!--BOTON CON LA FUNCION DE Llamar a la pantalla New Page -->
+        <Button Margin="40"
+         FontSize="20"
+         BackgroundColor="Black"
+         Text="Agregar "
+         Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
